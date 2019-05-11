@@ -1,0 +1,24 @@
+{
+  "name": "koa-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mysql": "^2.16.0",
+    "mysql-pro": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
