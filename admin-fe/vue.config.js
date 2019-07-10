@@ -7,7 +7,8 @@ module.exports = {
         changeOrigin: true
       },
       '/student':{
-        target:'http://192.168.25.95:4000',
+        // target:'http://192.168.1.107:4000',
+        target:'http://192.168.1.49:4000',
         changeOrigin: true
       }
     }

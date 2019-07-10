@@ -14,14 +14,15 @@
         events: [
           {
             title:'高一3班数学',
-            start:'2019-04-15 08:00:00',
-            end:'2019-04-15 08:45:00'
+            start:'2019-06-15 08:00:00',
+            end:'2019-06-17 08:45:00'
           }
         ],
         calendarConfig: {
           header:{
             right:'month,agendaWeek'
           },
+          firstDay: 0,
           locale:'zh-cn',
           defaultView:'month',
           buttonText:{
@@ -36,10 +37,10 @@
     },
     methods:{
       handleDateClick(val) {
-        console.log(val)
+        console.log('dataClick', val)
       },
       handleEvent(val){
-        console.log(val)
+        console.log('event', val)
       }
     }
   }
